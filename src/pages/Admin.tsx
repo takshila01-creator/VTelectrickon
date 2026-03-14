@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase, Product, Order, AdminSettings } from '../lib/supabase';
-import { LogOut, Plus, Edit, Trash2 } from 'lucide-react';
+import { LogOut, Plus, CreditCard as Edit, Trash2 } from 'lucide-react';
 
 export function Admin() {
   const [session, setSession] = useState<any>(null);

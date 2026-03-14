@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { CheckCircle } from 'lucide-react';
+import { CircleCheck as CheckCircle } from 'lucide-react';
 import { supabase, CartItem, Product } from '../lib/supabase';
 import { getSessionId, generateOrderNumber } from '../lib/cart';
 
